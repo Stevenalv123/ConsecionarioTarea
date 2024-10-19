@@ -1,0 +1,17 @@
+C:\Users\steve\source\repos\Consecionario\bin\Debug\net8.0-windows\Consecionario.exe
+C:\Users\steve\source\repos\Consecionario\bin\Debug\net8.0-windows\Consecionario.deps.json
+C:\Users\steve\source\repos\Consecionario\bin\Debug\net8.0-windows\Consecionario.runtimeconfig.json
+C:\Users\steve\source\repos\Consecionario\bin\Debug\net8.0-windows\Consecionario.dll
+C:\Users\steve\source\repos\Consecionario\bin\Debug\net8.0-windows\Consecionario.pdb
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.Form1.resources
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.csproj.GenerateResource.cache
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.AssemblyInfoInputs.cache
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.AssemblyInfo.cs
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.csproj.CoreCompileInputs.cache
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.dll
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\refint\Consecionario.dll
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.pdb
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.genruntimeconfig.cache
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\ref\Consecionario.dll
+C:\Users\steve\source\repos\Consecionario\obj\Debug\net8.0-windows\Consecionario.Properties.Resources.resources
