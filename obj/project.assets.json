@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steve\\source\\repos\\Consecionario\\Consecionario.csproj",
+      "projectUniqueName": "C:\\Users\\steve\\Source\\Repos\\ConsecionarioTarea\\Consecionario.csproj",
       "projectName": "Consecionario",
-      "projectPath": "C:\\Users\\steve\\source\\repos\\Consecionario\\Consecionario.csproj",
+      "projectPath": "C:\\Users\\steve\\Source\\Repos\\ConsecionarioTarea\\Consecionario.csproj",
       "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steve\\source\\repos\\Consecionario\\obj\\",
+      "outputPath": "C:\\Users\\steve\\Source\\Repos\\ConsecionarioTarea\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
