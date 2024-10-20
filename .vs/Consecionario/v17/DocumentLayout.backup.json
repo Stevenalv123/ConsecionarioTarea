@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1_metodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\steve\\source\\repos\\consecionariotarea\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -49,8 +49,7 @@
               "ToolTip": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:00:36.558Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-20T17:00:36.558Z"
             },
             {
               "$type": "Document",
@@ -60,7 +59,7 @@
               "RelativeDocumentMoniker": "Form1_Eventos.cs",
               "ToolTip": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1_Eventos.cs",
               "RelativeToolTip": "Form1_Eventos.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAArwB0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAADgvzsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T03:03:13.496Z",
               "EditorCaption": ""
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "Form1_Metodos.cs",
               "ToolTip": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1_Metodos.cs",
               "RelativeToolTip": "Form1_Metodos.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T03:02:09.365Z",
               "EditorCaption": ""
