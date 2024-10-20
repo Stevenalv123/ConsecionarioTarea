@@ -78,14 +78,22 @@ namespace Consecionario
             return true;
         }
 
-        private void ActualizarDataGridView(string tipoVehiculo)
+        private void ActualizarDataGridView()
         {
-            dtgVehiculos.Rows.Clear();
+            dtgVehiculos.Rows.Clear(); 
 
             foreach (var vehiculo in listaVehiculos)
             {
                 DataGridViewRow row = new DataGridViewRow();
                 row.CreateCells(dtgVehiculos);
+
+                string tipoVehiculo = vehiculo switch
+                {
+                    Camion => "Camiones",
+                    VehiculoElectrico => "Auto electrico",
+                    Auto => "Auto",
+                    Motocicleta => "Motocicleta",
+                };
 
                 row.Cells[0].Value = tipoVehiculo;
                 row.Cells[1].Value = vehiculo.Marca;
@@ -112,3 +120,4 @@ namespace Consecionario
         }
     }
 }
+
