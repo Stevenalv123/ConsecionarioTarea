@@ -47,6 +47,8 @@ namespace Consecionario
                 }
             }
             Vehiculos vehiculos = CrearVehiculo(tipoVehiculo, marca, modelo, textField);
+            listaVehiculos.Add(vehiculos);
+            ActualizarDataGridView();
             MessageBox.Show("Registro guardado con éxito.");
             LimpiarCampos();
         }

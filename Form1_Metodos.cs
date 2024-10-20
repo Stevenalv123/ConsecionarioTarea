@@ -4,6 +4,8 @@ namespace Consecionario
 {
     public partial class Form1 : Form
     {
+
+        private List<Vehiculos> listaVehiculos = new List<Vehiculos>();
         public Vehiculos CrearVehiculo(string tipoVehiculo, string marca, string modelo, int textField)
         {
             switch (tipoVehiculo)
@@ -51,5 +53,23 @@ namespace Consecionario
 
             cmbItems.SelectedIndex = 0;
         }
+
+        private void ActualizarDataGridView()
+        {
+            dataGridView1.DataSource = null;
+
+            var vehiculosMostrar = listaVehiculos.Select(v => new
+            {
+                Marca = v.Marca,
+                Modelo = v.Modelo,
+                Detalles = v is Auto ? "Auto" :
+                           v is Motocicleta ? "Motocicleta" :
+                           v is Camion camion ? $"Capacidad: {camion.CapacidadCarga}" :
+                           v is VehiculoElectrico electrico ? $"Batería: {electrico.CapacidadBateria}" : "Desconocido"
+            }).ToList();
+
+            dataGridView1.DataSource = vehiculosMostrar;
+        }
+
     }
 }
