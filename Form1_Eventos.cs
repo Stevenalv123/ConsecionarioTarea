@@ -9,22 +9,25 @@ namespace Consecionario
 {
     public partial class Form1 : Form
     {
+        private List<Vehiculos> listaVehiculos = new List<Vehiculos>();
         private void cmbItems_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string selected = cmbItems.SelectedItem.ToString();
-
-            switch (selected)
+            if(!(cmbItems.SelectedItem == null))
             {
-                case "Camiones":
-                    MostrarCampos(true, "Capacidad de Carga: ");
-                    break;
-                case "Auto electrico":
-                    MostrarCampos(true, "Capacidad de Bateria: ");
-                    break;
-                default:
-                    MostrarCampos(false);
-                    break;
-            }
+                string selected = cmbItems.SelectedItem.ToString();
+                switch (selected)
+                {
+                    case "Camiones":
+                        MostrarCampos(true, "Capacidad de Carga: ", "Toneladas");
+                        break;
+                    case "Auto electrico":
+                        MostrarCampos(true, "Capacidad de Bateria: ", "kWh");
+                        break;
+                    default:
+                        MostrarCampos(false);
+                        break;
+                }
+            }  
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -34,24 +37,26 @@ namespace Consecionario
                 MessageBox.Show("Por favor, seleccione un tipo de vehículo.");
                 return;
             }
+
             string tipoVehiculo = cmbItems.SelectedItem.ToString();
             string marca = txtMarca.Text;
             string modelo = txtModelo.Text;
             int textField = 0;
-            if (txtTextField.Visible == true)
+
+            if (!ValidarCampos(marca, modelo, out textField))
             {
-                if (!int.TryParse(txtTextField.Text, out textField))
-                {
-                    MessageBox.Show("Por favor, ingrese un valor numérico válido.");
-                    return;
-                }
+                return;
             }
+
             Vehiculos vehiculos = CrearVehiculo(tipoVehiculo, marca, modelo, textField);
             listaVehiculos.Add(vehiculos);
-            ActualizarDataGridView();
+
+            ActualizarDataGridView(tipoVehiculo);
+
             MessageBox.Show("Registro guardado con éxito.");
             LimpiarCampos();
         }
+
 
         private void btnNew_Click(object sender, EventArgs e)
         {

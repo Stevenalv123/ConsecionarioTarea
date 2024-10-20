@@ -47,17 +47,18 @@
             lblMarca = new Label();
             cmbItems = new ComboBox();
             panel3 = new Panel();
-            dataGridView1 = new DataGridView();
+            dtgVehiculos = new DataGridView();
             Tipo = new DataGridViewTextBoxColumn();
             Marca = new DataGridViewTextBoxColumn();
             Modelo = new DataGridViewTextBoxColumn();
             Carga = new DataGridViewTextBoxColumn();
             Bateria = new DataGridViewTextBoxColumn();
+            lblMedida = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dtgVehiculos).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -94,6 +95,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(lblMedida);
             panel2.Controls.Add(lblTextField);
             panel2.Controls.Add(label7);
             panel2.Controls.Add(txtTextField);
@@ -116,7 +118,7 @@
             // 
             lblTextField.AutoSize = true;
             lblTextField.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            lblTextField.Location = new Point(12, 142);
+            lblTextField.Location = new Point(12, 144);
             lblTextField.Name = "lblTextField";
             lblTextField.Size = new Size(63, 30);
             lblTextField.TabIndex = 8;
@@ -136,9 +138,9 @@
             // txtTextField
             // 
             txtTextField.Font = new Font("Segoe UI", 12F);
-            txtTextField.Location = new Point(258, 142);
+            txtTextField.Location = new Point(258, 145);
             txtTextField.Name = "txtTextField";
-            txtTextField.Size = new Size(306, 29);
+            txtTextField.Size = new Size(197, 29);
             txtTextField.TabIndex = 4;
             txtTextField.Visible = false;
             // 
@@ -231,18 +233,18 @@
             // 
             // panel3
             // 
-            panel3.Controls.Add(dataGridView1);
+            panel3.Controls.Add(dtgVehiculos);
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(0, 276);
             panel3.Name = "panel3";
             panel3.Size = new Size(800, 174);
             panel3.TabIndex = 3;
             // 
-            // dataGridView1
+            // dtgVehiculos
             // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dtgVehiculos.AllowUserToAddRows = false;
+            dtgVehiculos.AllowUserToDeleteRows = false;
+            dtgVehiculos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = SystemColors.GradientActiveCaption;
             dataGridViewCellStyle3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -250,14 +252,14 @@
             dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Tipo, Marca, Modelo, Carga, Bateria });
-            dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(0, 0);
-            dataGridView1.MultiSelect = false;
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
+            dtgVehiculos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dtgVehiculos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtgVehiculos.Columns.AddRange(new DataGridViewColumn[] { Tipo, Marca, Modelo, Carga, Bateria });
+            dtgVehiculos.Dock = DockStyle.Fill;
+            dtgVehiculos.Location = new Point(0, 0);
+            dtgVehiculos.MultiSelect = false;
+            dtgVehiculos.Name = "dtgVehiculos";
+            dtgVehiculos.ReadOnly = true;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = SystemColors.GradientActiveCaption;
             dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
@@ -265,10 +267,10 @@
             dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridView1.RowHeadersVisible = false;
-            dataGridView1.Size = new Size(800, 174);
-            dataGridView1.TabIndex = 0;
+            dtgVehiculos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dtgVehiculos.RowHeadersVisible = false;
+            dtgVehiculos.Size = new Size(800, 174);
+            dtgVehiculos.TabIndex = 0;
             // 
             // Tipo
             // 
@@ -300,6 +302,17 @@
             Bateria.Name = "Bateria";
             Bateria.ReadOnly = true;
             // 
+            // lblMedida
+            // 
+            lblMedida.AutoSize = true;
+            lblMedida.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            lblMedida.Location = new Point(461, 147);
+            lblMedida.Name = "lblMedida";
+            lblMedida.Size = new Size(78, 25);
+            lblMedida.TabIndex = 9;
+            lblMedida.Text = "medida";
+            lblMedida.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -321,7 +334,7 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dtgVehiculos).EndInit();
             ResumeLayout(false);
         }
 
@@ -343,7 +356,7 @@
         private TextBox txtTextField;
         private TextBox textBox3;
         private Panel panel3;
-        private DataGridView dataGridView1;
+        private DataGridView dtgVehiculos;
         private Label label7;
         private PictureBox pictureBox1;
         private Label lblTextField;
@@ -352,5 +365,6 @@
         private DataGridViewTextBoxColumn Modelo;
         private DataGridViewTextBoxColumn Carga;
         private DataGridViewTextBoxColumn Bateria;
+        private Label lblMedida;
     }
 }
