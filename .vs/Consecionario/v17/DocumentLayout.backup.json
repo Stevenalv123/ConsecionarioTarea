@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\steve\\source\\repos\\consecionariotarea\\form1_metodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1_metodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\steve\\source\\repos\\consecionariotarea\\form1_eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1_eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\steve\\source\\repos\\consecionariotarea\\form1_metodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1_metodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\steve\\source\\repos\\consecionariotarea\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,26 +54,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1_Eventos.cs",
               "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1_Eventos.cs",
               "RelativeDocumentMoniker": "Form1_Eventos.cs",
               "ToolTip": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1_Eventos.cs",
               "RelativeToolTip": "Form1_Eventos.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAYwC0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAArwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T03:03:13.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1_Metodos.cs",
               "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1_Metodos.cs",
               "RelativeDocumentMoniker": "Form1_Metodos.cs",
-              "ToolTip": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1_Metodos.cs*",
-              "RelativeToolTip": "Form1_Metodos.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDUAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ConsecionarioTarea\\Form1_Metodos.cs",
+              "RelativeToolTip": "Form1_Metodos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T03:02:09.365Z",
               "EditorCaption": ""
