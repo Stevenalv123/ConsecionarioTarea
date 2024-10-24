@@ -28,13 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             panel1 = new Panel();
             label1 = new Label();
             label2 = new Label();
             panel2 = new Panel();
+            lblMedida = new Label();
             lblTextField = new Label();
             label7 = new Label();
             txtTextField = new TextBox();
@@ -48,17 +50,33 @@
             cmbItems = new ComboBox();
             panel3 = new Panel();
             dtgVehiculos = new DataGridView();
+            cmMetVehiculos = new ContextMenuStrip(components);
+            cDetener = new ToolStripMenuItem();
+            cMo = new ToolStripMenuItem();
+            cIniciar = new ToolStripMenuItem();
             Tipo = new DataGridViewTextBoxColumn();
             Marca = new DataGridViewTextBoxColumn();
             Modelo = new DataGridViewTextBoxColumn();
             Carga = new DataGridViewTextBoxColumn();
             Bateria = new DataGridViewTextBoxColumn();
-            lblMedida = new Label();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            toolStripMenuItem2 = new ToolStripMenuItem();
+            toolStripMenuItem3 = new ToolStripMenuItem();
+            toolStripMenuItem4 = new ToolStripMenuItem();
+            cmMetVehElectricos = new ContextMenuStrip(components);
+            cCargar = new ToolStripMenuItem();
+            cInit = new ToolStripMenuItem();
+            cMov = new ToolStripMenuItem();
+            cStop = new ToolStripMenuItem();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtgVehiculos).BeginInit();
+            cmMetVehiculos.SuspendLayout();
+            contextMenuStrip1.SuspendLayout();
+            cmMetVehElectricos.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -113,6 +131,17 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(800, 206);
             panel2.TabIndex = 2;
+            // 
+            // lblMedida
+            // 
+            lblMedida.AutoSize = true;
+            lblMedida.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            lblMedida.Location = new Point(461, 147);
+            lblMedida.Name = "lblMedida";
+            lblMedida.Size = new Size(78, 25);
+            lblMedida.TabIndex = 9;
+            lblMedida.Text = "medida";
+            lblMedida.Visible = false;
             // 
             // lblTextField
             // 
@@ -245,32 +274,58 @@
             dtgVehiculos.AllowUserToAddRows = false;
             dtgVehiculos.AllowUserToDeleteRows = false;
             dtgVehiculos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dtgVehiculos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dtgVehiculos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dtgVehiculos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgVehiculos.Columns.AddRange(new DataGridViewColumn[] { Tipo, Marca, Modelo, Carga, Bateria });
+            dtgVehiculos.ContextMenuStrip = cmMetVehiculos;
             dtgVehiculos.Dock = DockStyle.Fill;
             dtgVehiculos.Location = new Point(0, 0);
             dtgVehiculos.MultiSelect = false;
             dtgVehiculos.Name = "dtgVehiculos";
             dtgVehiculos.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dtgVehiculos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dtgVehiculos.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dtgVehiculos.RowHeadersVisible = false;
             dtgVehiculos.Size = new Size(800, 174);
             dtgVehiculos.TabIndex = 0;
+            // 
+            // cmMetVehiculos
+            // 
+            cmMetVehiculos.Items.AddRange(new ToolStripItem[] { cIniciar, cMo, cDetener });
+            cmMetVehiculos.Name = "cmMetodos";
+            cmMetVehiculos.Size = new Size(181, 92);
+            cmMetVehiculos.Text = "Mover";
+            // 
+            // cDetener
+            // 
+            cDetener.Name = "cDetener";
+            cDetener.Size = new Size(180, 22);
+            cDetener.Text = "Detener";
+            // 
+            // cMo
+            // 
+            cMo.Name = "cMo";
+            cMo.Size = new Size(180, 22);
+            cMo.Text = "Mover";
+            // 
+            // cIniciar
+            // 
+            cIniciar.Name = "cIniciar";
+            cIniciar.Size = new Size(180, 22);
+            cIniciar.Text = "Iniciar";
             // 
             // Tipo
             // 
@@ -302,16 +357,66 @@
             Bateria.Name = "Bateria";
             Bateria.ReadOnly = true;
             // 
-            // lblMedida
+            // contextMenuStrip1
             // 
-            lblMedida.AutoSize = true;
-            lblMedida.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            lblMedida.Location = new Point(461, 147);
-            lblMedida.Name = "lblMedida";
-            lblMedida.Size = new Size(78, 25);
-            lblMedida.TabIndex = 9;
-            lblMedida.Text = "medida";
-            lblMedida.Visible = false;
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem2, toolStripMenuItem3, toolStripMenuItem4 });
+            contextMenuStrip1.Name = "cmMetodos";
+            contextMenuStrip1.Size = new Size(149, 92);
+            contextMenuStrip1.Text = "Mover";
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(148, 22);
+            toolStripMenuItem1.Text = "Detener";
+            // 
+            // toolStripMenuItem2
+            // 
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new Size(148, 22);
+            toolStripMenuItem2.Text = "Mover";
+            // 
+            // toolStripMenuItem3
+            // 
+            toolStripMenuItem3.Name = "toolStripMenuItem3";
+            toolStripMenuItem3.Size = new Size(148, 22);
+            toolStripMenuItem3.Text = "Cargar Bateria";
+            // 
+            // toolStripMenuItem4
+            // 
+            toolStripMenuItem4.Name = "toolStripMenuItem4";
+            toolStripMenuItem4.Size = new Size(148, 22);
+            toolStripMenuItem4.Text = "Iniciar";
+            // 
+            // cmMetVehElectricos
+            // 
+            cmMetVehElectricos.Items.AddRange(new ToolStripItem[] { cCargar, cInit, cMov, cStop });
+            cmMetVehElectricos.Name = "cmMetVehElectricos";
+            cmMetVehElectricos.Size = new Size(120, 92);
+            // 
+            // cCargar
+            // 
+            cCargar.Name = "cCargar";
+            cCargar.Size = new Size(119, 22);
+            cCargar.Text = "Cargar";
+            // 
+            // cInit
+            // 
+            cInit.Name = "cInit";
+            cInit.Size = new Size(119, 22);
+            cInit.Text = "Iniciar";
+            // 
+            // cMov
+            // 
+            cMov.Name = "cMov";
+            cMov.Size = new Size(119, 22);
+            cMov.Text = "Moverse";
+            // 
+            // cStop
+            // 
+            cStop.Name = "cStop";
+            cStop.Size = new Size(119, 22);
+            cStop.Text = "Detener";
             // 
             // Form1
             // 
@@ -335,6 +440,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dtgVehiculos).EndInit();
+            cmMetVehiculos.ResumeLayout(false);
+            contextMenuStrip1.ResumeLayout(false);
+            cmMetVehElectricos.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -360,11 +468,26 @@
         private Label label7;
         private PictureBox pictureBox1;
         private Label lblTextField;
+        private Label lblMedida;
+        private DataGridViewTextBoxColumn Estado;
+        private ContextMenuStrip cmMetVehiculos;
+        private ToolStripMenuItem cDetener;
+        private ToolStripMenuItem cMo;
+        private ToolStripMenuItem cIniciar;
         private DataGridViewTextBoxColumn Tipo;
         private DataGridViewTextBoxColumn Marca;
         private DataGridViewTextBoxColumn Modelo;
         private DataGridViewTextBoxColumn Carga;
         private DataGridViewTextBoxColumn Bateria;
-        private Label lblMedida;
+        private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem toolStripMenuItem2;
+        private ToolStripMenuItem toolStripMenuItem3;
+        private ToolStripMenuItem toolStripMenuItem4;
+        private ContextMenuStrip cmMetVehElectricos;
+        private ToolStripMenuItem cCargar;
+        private ToolStripMenuItem cInit;
+        private ToolStripMenuItem cMov;
+        private ToolStripMenuItem cStop;
     }
 }

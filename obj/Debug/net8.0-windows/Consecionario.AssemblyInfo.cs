@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Consecionario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba60ca69fd3fb0060b45281f13e3060919e05b17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+985463634c994acd68b30c0afeb1b64a74570052")]
 [assembly: System.Reflection.AssemblyProductAttribute("Consecionario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Consecionario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
