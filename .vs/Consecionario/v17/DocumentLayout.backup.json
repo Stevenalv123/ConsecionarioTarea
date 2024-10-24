@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\clases\\vehiculoelectrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:clases\\vehiculoelectrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\clases\\motocicleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:clases\\motocicleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\clases\\camion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:clases\\camion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\clases\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:clases\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\form1_eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1_eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\form1_metodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1_metodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\form1_eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1_eventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\clases\\vehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:clases\\vehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|c:\\users\\usuario\\source\\repos\\consecionariotarea\\clases\\itransporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D524E4-880B-4F85-A480-E32B6BAF5AAD}|Consecionario.csproj|solutionrelative:clases\\itransporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,65 +82,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehiculoElectrico.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\VehiculoElectrico.cs",
-              "RelativeDocumentMoniker": "Clases\\VehiculoElectrico.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\VehiculoElectrico.cs",
-              "RelativeToolTip": "Clases\\VehiculoElectrico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Motocicleta.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Motocicleta.cs",
+              "RelativeDocumentMoniker": "Clases\\Motocicleta.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Motocicleta.cs",
+              "RelativeToolTip": "Clases\\Motocicleta.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:27:20.175Z",
+              "WhenOpened": "2024-10-24T20:04:20.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "Vehiculos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Vehiculos.cs",
+              "RelativeDocumentMoniker": "Clases\\Vehiculos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Vehiculos.cs",
+              "RelativeToolTip": "Clases\\Vehiculos.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:31:22.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:16:16.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Camion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Camion.cs",
               "RelativeDocumentMoniker": "Clases\\Camion.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Camion.cs",
               "RelativeToolTip": "Clases\\Camion.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T14:26:56.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "Form1_Eventos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1_Eventos.cs",
+              "RelativeDocumentMoniker": "Form1_Eventos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1_Eventos.cs",
+              "RelativeToolTip": "Form1_Eventos.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T03:03:13.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehiculoElectrico.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\VehiculoElectrico.cs",
+              "RelativeDocumentMoniker": "Clases\\VehiculoElectrico.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\VehiculoElectrico.cs",
+              "RelativeToolTip": "Clases\\VehiculoElectrico.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:27:20.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:00:36.558Z",
+              "WhenOpened": "2024-10-24T19:55:42.732Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1_Eventos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1_Eventos.cs",
-              "RelativeDocumentMoniker": "Form1_Eventos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1_Eventos.cs",
-              "RelativeToolTip": "Form1_Eventos.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:03:13.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Form1_Metodos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1_Metodos.cs",
               "RelativeDocumentMoniker": "Form1_Metodos.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Form1_Metodos.cs",
               "RelativeToolTip": "Form1_Metodos.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAiwGIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:02:09.365Z"
+              "WhenOpened": "2024-10-20T03:02:09.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Auto.cs",
+              "RelativeDocumentMoniker": "Clases\\Auto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\Auto.cs",
+              "RelativeToolTip": "Clases\\Auto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:34:05.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITransporte.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\ITransporte.cs",
+              "RelativeDocumentMoniker": "Clases\\ITransporte.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ConsecionarioTarea\\Clases\\ITransporte.cs",
+              "RelativeToolTip": "Clases\\ITransporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:32:00.471Z",
+              "EditorCaption": ""
             }
           ]
         }

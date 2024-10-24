@@ -36,6 +36,7 @@
             label1 = new Label();
             label2 = new Label();
             panel2 = new Panel();
+            label3 = new Label();
             lblMedida = new Label();
             lblTextField = new Label();
             label7 = new Label();
@@ -50,15 +51,15 @@
             cmbItems = new ComboBox();
             panel3 = new Panel();
             dtgVehiculos = new DataGridView();
-            cmMetVehiculos = new ContextMenuStrip(components);
-            cDetener = new ToolStripMenuItem();
-            cMo = new ToolStripMenuItem();
-            cIniciar = new ToolStripMenuItem();
             Tipo = new DataGridViewTextBoxColumn();
             Marca = new DataGridViewTextBoxColumn();
             Modelo = new DataGridViewTextBoxColumn();
             Carga = new DataGridViewTextBoxColumn();
             Bateria = new DataGridViewTextBoxColumn();
+            cmMetVehiculos = new ContextMenuStrip(components);
+            cIniciar = new ToolStripMenuItem();
+            cMo = new ToolStripMenuItem();
+            cDetener = new ToolStripMenuItem();
             contextMenuStrip1 = new ContextMenuStrip(components);
             toolStripMenuItem1 = new ToolStripMenuItem();
             toolStripMenuItem2 = new ToolStripMenuItem();
@@ -113,6 +114,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(label3);
             panel2.Controls.Add(lblMedida);
             panel2.Controls.Add(lblTextField);
             panel2.Controls.Add(label7);
@@ -129,8 +131,17 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 70);
             panel2.Name = "panel2";
-            panel2.Size = new Size(800, 206);
+            panel2.Size = new Size(800, 227);
             panel2.TabIndex = 2;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(12, 209);
+            label3.Name = "label3";
+            label3.Size = new Size(434, 15);
+            label3.TabIndex = 10;
+            label3.Text = "*Si quieres realizar alguna accion con el vehiculo, haz click derecho sobre la celda";
             // 
             // lblMedida
             // 
@@ -177,9 +188,9 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(574, 134);
+            pictureBox1.Location = new Point(570, 147);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(213, 63);
+            pictureBox1.Size = new Size(218, 63);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
@@ -188,7 +199,7 @@
             // 
             btnGuardar.Anchor = AnchorStyles.Right;
             btnGuardar.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnGuardar.Location = new Point(570, 72);
+            btnGuardar.Location = new Point(570, 82);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(218, 56);
             btnGuardar.TabIndex = 5;
@@ -200,7 +211,7 @@
             // 
             btnNew.Anchor = AnchorStyles.Right;
             btnNew.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnNew.Location = new Point(570, 10);
+            btnNew.Location = new Point(570, 20);
             btnNew.Name = "btnNew";
             btnNew.Size = new Size(218, 56);
             btnNew.TabIndex = 5;
@@ -264,9 +275,9 @@
             // 
             panel3.Controls.Add(dtgVehiculos);
             panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(0, 276);
+            panel3.Location = new Point(0, 297);
             panel3.Name = "panel3";
-            panel3.Size = new Size(800, 174);
+            panel3.Size = new Size(800, 153);
             panel3.TabIndex = 3;
             // 
             // dtgVehiculos
@@ -284,7 +295,6 @@
             dtgVehiculos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dtgVehiculos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgVehiculos.Columns.AddRange(new DataGridViewColumn[] { Tipo, Marca, Modelo, Carga, Bateria });
-            dtgVehiculos.ContextMenuStrip = cmMetVehiculos;
             dtgVehiculos.Dock = DockStyle.Fill;
             dtgVehiculos.Location = new Point(0, 0);
             dtgVehiculos.MultiSelect = false;
@@ -299,33 +309,9 @@
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             dtgVehiculos.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dtgVehiculos.RowHeadersVisible = false;
-            dtgVehiculos.Size = new Size(800, 174);
+            dtgVehiculos.Size = new Size(800, 153);
             dtgVehiculos.TabIndex = 0;
-            // 
-            // cmMetVehiculos
-            // 
-            cmMetVehiculos.Items.AddRange(new ToolStripItem[] { cIniciar, cMo, cDetener });
-            cmMetVehiculos.Name = "cmMetodos";
-            cmMetVehiculos.Size = new Size(181, 92);
-            cmMetVehiculos.Text = "Mover";
-            // 
-            // cDetener
-            // 
-            cDetener.Name = "cDetener";
-            cDetener.Size = new Size(180, 22);
-            cDetener.Text = "Detener";
-            // 
-            // cMo
-            // 
-            cMo.Name = "cMo";
-            cMo.Size = new Size(180, 22);
-            cMo.Text = "Mover";
-            // 
-            // cIniciar
-            // 
-            cIniciar.Name = "cIniciar";
-            cIniciar.Size = new Size(180, 22);
-            cIniciar.Text = "Iniciar";
+            dtgVehiculos.CellMouseDown += dtgVehiculos_CellMouseDown;
             // 
             // Tipo
             // 
@@ -356,6 +342,34 @@
             Bateria.HeaderText = "Bateria";
             Bateria.Name = "Bateria";
             Bateria.ReadOnly = true;
+            // 
+            // cmMetVehiculos
+            // 
+            cmMetVehiculos.Items.AddRange(new ToolStripItem[] { cIniciar, cMo, cDetener });
+            cmMetVehiculos.Name = "cmMetodos";
+            cmMetVehiculos.Size = new Size(116, 70);
+            cmMetVehiculos.Text = "Mover";
+            // 
+            // cIniciar
+            // 
+            cIniciar.Name = "cIniciar";
+            cIniciar.Size = new Size(115, 22);
+            cIniciar.Text = "Iniciar";
+            cIniciar.Click += cIniciar_Click;
+            // 
+            // cMo
+            // 
+            cMo.Name = "cMo";
+            cMo.Size = new Size(115, 22);
+            cMo.Text = "Mover";
+            cMo.Click += cMo_Click;
+            // 
+            // cDetener
+            // 
+            cDetener.Name = "cDetener";
+            cDetener.Size = new Size(115, 22);
+            cDetener.Text = "Detener";
+            cDetener.Click += cDetener_Click;
             // 
             // contextMenuStrip1
             // 
@@ -489,5 +503,6 @@
         private ToolStripMenuItem cInit;
         private ToolStripMenuItem cMov;
         private ToolStripMenuItem cStop;
+        private Label label3;
     }
 }
