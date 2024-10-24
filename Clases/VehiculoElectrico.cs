@@ -17,22 +17,22 @@ namespace Consecionario.Clases
 
         public void CargarBateria()
         {
-            Console.WriteLine($"{Marca} {Modelo} está cargando la batería (Capacidad: {CapacidadBateria} kWh).");
+            MessageBox.Show($"{Marca} {Modelo} está cargando la batería (Capacidad: {CapacidadBateria} kWh).");
         }
 
         public override void Moverse()
         {
-            Console.WriteLine($"{Marca} {Modelo} está conduciendo en modo eléctrico.");
+            MessageBox.Show($"{Marca} {Modelo} está conduciendo en modo eléctrico.");
         }
 
         public void Iniciar()
         {
-            Console.WriteLine($"{Marca} {Modelo} está encendido.");
+            MessageBox.Show($"{Marca} {Modelo} está encendido.");
         }
 
         public void Detenerse()
         {
-            Console.WriteLine($"{Marca} {Modelo} está apagado.");
+            MessageBox.Show($"{Marca} {Modelo} está apagado.");
         }
     }
 }

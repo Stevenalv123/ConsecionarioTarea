@@ -14,17 +14,17 @@ namespace Consecionario.Clases
 
         public void Detenerse()
         {
-            Console.WriteLine($"{Marca} {Modelo} está detenida.");
+            MessageBox.Show($"{Marca} {Modelo} está detenida.");
         }
 
         public void Iniciar()
         {
-            Console.WriteLine($"{Marca} {Modelo} está encendido.");
+            MessageBox.Show($"{Marca} {Modelo} está encendido.");
         }
 
         public override void Moverse()
         {
-            Console.WriteLine($"{Marca} {Modelo} se esta moviendo.");
+            MessageBox.Show($"{Marca} {Modelo} se esta moviendo.");
         }
     }
 }

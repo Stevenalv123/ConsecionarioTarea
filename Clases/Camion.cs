@@ -17,17 +17,17 @@ namespace Consecionario.Clases
 
         public void Detenerse()
         {
-            Console.WriteLine($"{Marca} {Modelo} está detenido.");
+            MessageBox.Show($"{Marca} {Modelo} está detenido.");
         }
 
         public void Iniciar()
         {
-            Console.WriteLine($"{Marca} {Modelo} está encendido.");
+            MessageBox.Show($"{Marca} {Modelo} está encendido.");
         }
 
         public override void Moverse()
         {
-            Console.WriteLine($"{Marca} {Modelo} está transportando con capacidad de carga {CapacidadCarga} kg.");
+            MessageBox.Show($"{Marca} {Modelo} está transportando con capacidad de carga {CapacidadCarga} kg.");
         }
     }
 }
