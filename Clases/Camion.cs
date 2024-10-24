@@ -27,7 +27,7 @@ namespace Consecionario.Clases
 
         public override void Moverse()
         {
-            MessageBox.Show($"{Marca} {Modelo} está transportando con capacidad de carga {CapacidadCarga} kg.");
+            MessageBox.Show($"{Marca} {Modelo} está transportando con capacidad de carga {CapacidadCarga} Tonaledas.");
         }
     }
 }

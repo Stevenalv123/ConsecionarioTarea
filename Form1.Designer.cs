@@ -413,24 +413,28 @@
             cCargar.Name = "cCargar";
             cCargar.Size = new Size(119, 22);
             cCargar.Text = "Cargar";
+            cCargar.Click += cCargar_Click;
             // 
             // cInit
             // 
             cInit.Name = "cInit";
             cInit.Size = new Size(119, 22);
             cInit.Text = "Iniciar";
+            cInit.Click += cInit_Click;
             // 
             // cMov
             // 
             cMov.Name = "cMov";
             cMov.Size = new Size(119, 22);
             cMov.Text = "Moverse";
+            cMov.Click += cMov_Click;
             // 
             // cStop
             // 
             cStop.Name = "cStop";
             cStop.Size = new Size(119, 22);
             cStop.Text = "Detener";
+            cStop.Click += cStop_Click;
             // 
             // Form1
             // 

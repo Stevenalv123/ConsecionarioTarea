@@ -81,9 +81,9 @@ namespace Consecionario
                     vehiculoSeleccionado = new Auto(marca, modelo); 
                     cmMetVehiculos.Show(Cursor.Position); 
                 }
-                else if (tipoVehiculo == "Camion")
+                else if (tipoVehiculo == "Camiones")
                 {
-                    int capacidadCarga = Convert.ToInt32(dtgVehiculos.Rows[e.RowIndex].Cells["CapacidadCarga"].Value);
+                    int capacidadCarga = Convert.ToInt32(dtgVehiculos.Rows[e.RowIndex].Cells["Carga"].Value);
                     vehiculoSeleccionado = new Camion(marca, modelo, capacidadCarga); 
                     cmMetVehiculos.Show(Cursor.Position); 
                 }
@@ -94,10 +94,111 @@ namespace Consecionario
                 }
                 else if (tipoVehiculo == "Auto electrico")
                 {
-                    int capacidadBateria = Convert.ToInt32(dtgVehiculos.Rows[e.RowIndex].Cells["CapacidadBateria"].Value);
+                    int capacidadBateria = Convert.ToInt32(dtgVehiculos.Rows[e.RowIndex].Cells["Bateria"].Value);
                     vehiculoSeleccionado = new VehiculoElectrico(marca, modelo, capacidadBateria); 
                     cmMetVehElectricos.Show(Cursor.Position); 
                 }
+            }
+        }
+
+        private void cIniciar_Click(object sender, EventArgs e)
+        {
+            if (vehiculoSeleccionado != null)
+            {
+                if (vehiculoSeleccionado is Auto auto)
+                {
+                    auto.Iniciar();
+                }
+                else if (vehiculoSeleccionado is Camion camion)
+                {
+                    camion.Iniciar();
+                }
+                else if (vehiculoSeleccionado is Motocicleta motocicleta)
+                {
+                    motocicleta.Iniciar();
+                }
+                else if (vehiculoSeleccionado is VehiculoElectrico vehiculoElectrico)
+                {
+                    vehiculoElectrico.Iniciar();
+                }
+            }
+        }
+
+        private void cMo_Click(object sender, EventArgs e)
+        {
+            if (vehiculoSeleccionado != null)
+            {
+                if (vehiculoSeleccionado is Auto auto)
+                {
+                    auto.Moverse();
+                }
+                else if (vehiculoSeleccionado is Camion camion)
+                {
+                    camion.Moverse();
+                }
+                else if (vehiculoSeleccionado is Motocicleta motocicleta)
+                {
+                    motocicleta.Moverse();
+                }
+                else if (vehiculoSeleccionado is VehiculoElectrico vehiculoElectrico)
+                {
+                    vehiculoElectrico.Moverse();
+                }
+            }
+        }
+
+        private void cDetener_Click(object sender, EventArgs e)
+        {
+            if (vehiculoSeleccionado != null)
+            {
+                if (vehiculoSeleccionado is Auto auto)
+                {
+                    auto.Detenerse();
+                }
+                else if (vehiculoSeleccionado is Camion camion)
+                {
+                    camion.Detenerse();
+                }
+                else if (vehiculoSeleccionado is Motocicleta motocicleta)
+                {
+                    motocicleta.Detenerse();
+                }
+                else if (vehiculoSeleccionado is VehiculoElectrico vehiculoElectrico)
+                {
+                    vehiculoElectrico.Detenerse();
+                }
+            }
+        }
+
+        private void cCargar_Click(object sender, EventArgs e)
+        {
+            if (vehiculoSeleccionado is VehiculoElectrico vehiculoElectrico)
+            {
+                vehiculoElectrico.CargarBateria();
+            }
+        }
+
+        private void cInit_Click(object sender, EventArgs e)
+        {
+            if (vehiculoSeleccionado is VehiculoElectrico vehiculoElectrico)
+            {
+                vehiculoElectrico.Iniciar();
+            }
+        }
+
+        private void cMov_Click(object sender, EventArgs e)
+        {
+            if (vehiculoSeleccionado is VehiculoElectrico vehiculoElectrico)
+            {
+                vehiculoElectrico.Moverse();
+            }
+        }
+
+        private void cStop_Click(object sender, EventArgs e)
+        {
+            if (vehiculoSeleccionado is VehiculoElectrico vehiculoElectrico)
+            {
+                vehiculoElectrico.Detenerse();
             }
         }
     }

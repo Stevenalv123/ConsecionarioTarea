@@ -48,6 +48,7 @@ namespace Consecionario
             lblMarca.Visible = false;
             lblModelo.Visible = false;
             lblTextField.Visible = false;
+            lblMedida.Visible = false;
 
             txtMarca.Clear();
             txtModelo.Clear();
